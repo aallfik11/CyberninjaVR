@@ -1,0 +1,23 @@
+# Ignore built binaries and temporary folders
+Binaries/
+Build/
+Packaged/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+*.sln
+*.xcworkspace
+*.ico
+*.png
+*.user
+*.zip
+
+# Ignore the heavy Content folder
+Content/
+
+# Allow the essentials
+!Source/
+!Config/
+!*.uproject
